@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/javascriptismagic/co-subredis/issues"
   },
-  "homepage": "https://github.com/javascriptismagic/co-subredis"
+  "homepage": "https://github.com/javascriptismagic/co-subredis",
+  "dependencies": {
+    "co-redis": "1",
+    "redis": "0"
+  }
 }
