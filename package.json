@@ -1,6 +1,6 @@
 {
   "name": "co-subredis",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Makes co + redis pub/sub easier by opening a separate connection for sub/pub mode.",
   "repository": {
     "type": "git",
