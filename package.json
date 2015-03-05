@@ -2,6 +2,15 @@
   "name": "co-subredis",
   "version": "0.1.0",
   "description": "Makes co + redis pub/sub easier by opening a separate connection for sub/pub mode.",
+  "engines": {
+    "node": ">=0.12",
+    "coffee-script": ">=1.9"
+  },
+  "dependencies": {
+    "coffee-script": ">=1.9",
+    "co-redis": "1",
+    "redis": "0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/javascriptismagic/co-subredis.git"
@@ -12,16 +21,13 @@
     "publish",
     "subscribe",
     "generator",
-    "yield"
+    "yield",
+    "await"
   ],
   "author": "Brian <javascriptismagic@gmail.com>",
   "license": "Unliscense",
   "bugs": {
     "url": "https://github.com/javascriptismagic/co-subredis/issues"
   },
-  "homepage": "https://github.com/javascriptismagic/co-subredis",
-  "dependencies": {
-    "co-redis": "1",
-    "redis": "0"
-  }
+  "homepage": "https://github.com/javascriptismagic/co-subredis"
 }
